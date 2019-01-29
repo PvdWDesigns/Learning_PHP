@@ -21,7 +21,7 @@ if( $conn ) {
 }
 
 //Insert Query
-$PeopleList = array("Jack","Bill","John","Petrie","Marinda", "Riley");
+$PeopleList = array("Jack","Bill","John","Peter","Mandy", "Richard");
 foreach ($PeopleList as $person) {
      echo ("Inserting a new row into table" . PHP_EOL);
      $tsql= "INSERT INTO TestSchema.Employees (Name, Location) VALUES (?,?);";
